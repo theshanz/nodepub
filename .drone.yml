@@ -1,0 +1,13 @@
+kind: pipeline
+type: exec
+name: default
+
+platform:
+  os: linux
+  arch: armv7
+
+steps:
+- name: greeting
+  commands:
+  - echo hello world
+  
